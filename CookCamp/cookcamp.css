@@ -1,0 +1,210 @@
+body {
+    background-color: #f5f5dd;
+    margin: 0;
+}
+#largeBox {
+     width: 960px;
+     margin: 0 auto;
+}
+a {
+     text-decoration: none;
+}
+ul {
+     list-style: none;
+}
+h2 {
+    color: white;
+    border-radius: 10px;
+    background: url(icon/dish.png) no-repeat #99bb22 left center;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+header {
+     border-bottom: solid 1px #cccccc;
+     background-color: white;
+     min-width: 960px;
+
+}
+ .content {
+     width: 960px;
+     margin: 0 auto;
+
+}
+.logo {
+     float: left;
+}
+form {
+     float: right;
+ }
+header a {
+     text-decoration: none;
+     display: block;
+     color:#000;
+}
+header h1 {
+     font-size: 12px;
+     margin-top: 0;
+}
+header form {
+     float:right;
+}
+header nav {
+     clear: both;
+}
+header ul {
+     display:flex;
+     justify-content:space-between;
+     padding-left: 0;
+     width: 960px;
+     margin: 0 auto;
+     padding-bottom: 5px;
+}
+header li {
+     float: left;
+     border-left: solid 1px;
+     text-align: center;
+     width: 191.2px;
+}
+header li:first-child {
+     border-left: none;
+     padding-left: 0;
+}
+.bigImg img {
+     width: 960px;
+}
+
+.sideMenu {
+    float: left;
+}
+.food {
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 1px 10px;
+    background-color: white;
+}
+.food ul,.food li {
+    margin-left: 0;
+    padding: 0;
+}
+.food li {
+    background: url(icon/arrow.png) no-repeat left center;
+    padding-left: 30px;
+    border-bottom: dotted 1px;
+}
+.food .liEnd {
+    border-bottom: none;
+}
+.food a {
+    display: block;
+    width: 149px;
+}
+ .news {
+    float: left;
+    width: 583px;
+}
+.newRecipe {
+    padding: 10px 5px 5px 5px;
+    margin: 0;
+    background-color: white;
+}
+.flexFigure {
+    display: flex;
+    justify-content:space-around;
+}
+.flexFigure figure {
+    margin:0;
+    text-align:center;
+    display: block;
+    width:20%;
+}
+
+.flexFigure figcaption {
+    font-size: 10px;
+}
+.japanese {
+    margin: 15px 0 15px 0;
+    background-color: white;
+    padding: 10px 5px 5px 5px;
+}
+.indentFront {
+    text-indent: 1em;
+}
+.japanese img {
+    float: left;
+    margin: 0 13px 150px 0;
+}
+.japanese a {
+    margin-left:423px;
+    background: url(icon/arrow.png) no-repeat left center;
+    padding: 30px;
+    color: #fc8833;
+}
+.recommended {
+    clear: both;
+    margin: 0;
+    background-color: white;
+}
+.springImg {
+    float: left;
+}
+.spring {
+    text-align: justify;
+}
+.preventionImg {
+    float:left;
+}
+.prevention {
+    text-align: justify;
+}
+.recommended {
+    margin-bottom: 10px;
+    padding: 10px 5px 5px 5px;
+}
+.recommended h3 {
+    color:#ff0000;
+}
+.recommended img {
+    margin-bottom: 85px;
+}
+.recommended a {
+    background: url(icon/arrow.png) no-repeat left center;
+    padding-left: 30px;
+    margin-left: 448px;
+    color: #fc8833;
+}
+aside {
+     float: right;
+}
+aside a {
+    margin-bottom: 1px;
+}
+aside img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+     clear: both;
+     border-top: solid 1px #cccccc;
+     background-color: white;
+     min-width: 960px;
+}
+footer ul {
+     display: flex;
+     justify-content: center;
+}
+footer li {
+     border-left: solid 1px;
+}
+footer li:first-child {
+    border-left: none;
+
+}
+footer a {
+     text-decoration: none;
+     padding:0 10px;
+}
+footer p {
+     text-align: center;
+     margin-bottom: 0;
+}
